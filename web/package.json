@@ -1,13 +1,15 @@
 {
-	"name": "web",
-	"private": true,
-	"type": "module",
-	"engines": { "node": ">=20" }
-	"scripts": {
-  "dev": "react-router dev",
-  "typecheck": "react-router typegen && tsc --noEmit",
-  "start": "react-router start"
-},
+  "name": "web",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "react-router dev",
+    "typecheck": "react-router typegen && tsc --noEmit",
+    "build": "react-router build",
+    "start": "react-router start"
+  },
+
 
 	"dependencies": {
 		"@auth/core": "^0.37.2",
